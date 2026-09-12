@@ -138,7 +138,7 @@ export default function AdminDashboard({ onExit }) {
                 </span>
               </div>
               <p className="text-xs text-[#A1A1AA] mt-1">
-                Jóvenes Creativos • Jostin Daza & Angel Cruz • 11/09/2026
+                Jóvenes Creativos • Jostin Daza • 11/09/2026
               </p>
             </div>
           </div>

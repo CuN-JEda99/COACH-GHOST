@@ -67,7 +67,7 @@ export default function Footer({ onOpenAdmin }) {
               Equipo de Desarrollo
             </h4>
             <div className="space-y-2 text-sm text-[#A1A1AA]">
-              <p className="text-white font-bold">Jostin Daza & Angel Cruz</p>
+              <p className="text-white font-bold">Jostin Daza </p>
               <p className="text-xs">Bogotá D.C., Colombia</p>
               <p className="text-xs">Fecha de Entrega: <strong className="text-white">11/09/2026</strong></p>
               <div className="pt-2">
@@ -83,7 +83,7 @@ export default function Footer({ onOpenAdmin }) {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-[#222226] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>
-            © 2026 COACH GHOST. Todos los derechos reservados. Desarrollado por Jostin Daza y Angel Cruz.
+            © 2026 COACH GHOST. Todos los derechos reservados. Desarrollado por Jostin Daza.
           </p>
           <div className="flex items-center gap-6">
             <span>Suba • Kennedy • Engativá • Chapinero • Bosa • Usaquén</span>

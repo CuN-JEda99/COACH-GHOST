@@ -13,7 +13,7 @@
 ## 📋 Información del Proyecto
 
 - **Programa:** Jóvenes Creativos
-- **Autores:** Jostin Daza & Angel Cruz
+- **Autores:** Jostin Daza
 - **Fecha Oficial:** 11 de Septiembre de 2026 (11/09/2026)
 - **Repositorio:** [https://github.com/CuN-JEda99/COACH-GHOST-](https://github.com/CuN-JEda99/COACH-GHOST-)
 - **Credenciales Admin:** `admin` / `ghost2024`
@@ -148,4 +148,4 @@ El proyecto incluye configuración nativa para desplegarse mediante GitHub Actio
 
 ---
 
-© 2026 **COACH GHOST** • Jóvenes Creativos • Jostin Daza & Angel Cruz
+© 2026 **COACH GHOST** • Jóvenes Creativos • Jostin Daza 

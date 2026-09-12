@@ -39,7 +39,7 @@ app.get('/api/health', (req, res) => {
   res.status(200).json({
     status: 'online',
     project: 'COACH GHOST - Entrenador Fantasma con IA',
-    team: 'Jostin Daza & Angel Cruz',
+    team: 'Jostin Daza',
     date: '11/09/2026',
     db: getStatus(),
     timestamp: new Date()
@@ -51,7 +51,7 @@ app.get('/', (req, res) => {
   res.send(`
     <div style="font-family: system-ui, sans-serif; background: #000; color: #fff; min-height: 100vh; padding: 40px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
       <h1 style="color: #00FF88; font-size: 2.5rem; margin-bottom: 10px;">⚡ COACH GHOST API</h1>
-      <p style="color: #A1A1AA; font-size: 1.2rem; max-width: 600px; text-align: center;">Servidor Backend en línea para el proyecto Jóvenes Creativos (Jostin Daza & Angel Cruz - 11/09/2026)</p>
+      <p style="color: #A1A1AA; font-size: 1.2rem; max-width: 600px; text-align: center;">Servidor Backend en línea para el proyecto Jóvenes Creativos (Jostin Daza - 11/09/2026)</p>
       <div style="background: #18181B; border: 1px solid #27272a; padding: 20px 30px; border-radius: 12px; margin-top: 25px;">
         <p style="margin: 6px 0;"><strong>POST</strong> /api/contacto - Registro de cliente con match de escuelas</p>
         <p style="margin: 6px 0;"><strong>GET</strong> /api/clientes - Consulta de clientes para panel admin</p>
@@ -81,7 +81,7 @@ const startServer = async () => {
     console.log(`\n======================================================`);
     console.log(`🚀 COACH GHOST BACKEND ACTIVO`);
     console.log(`📍 Puerto: http://localhost:${PORT}`);
-    console.log(`👥 Creadores: Jostin Daza & Angel Cruz`);
+    console.log(`👥 Creadores: Jostin Daza`);
     console.log(`📅 Fecha: 11/09/2026`);
     console.log(`======================================================\n`);
   });

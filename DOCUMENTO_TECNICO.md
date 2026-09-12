@@ -8,7 +8,6 @@
 - **Nombre del Proyecto:** COACH GHOST - Entrenador Fantasma con IA
 - **Integrantes Oficiales:** 
   - Jostin Daza
-  - Angel Cruz
 - **Fecha de Entrega:** 11 de Septiembre de 2026 (11/09/2026)
 - **Repositorio Oficial:** [https://github.com/CuN-JEda99/COACH-GHOST-](https://github.com/CuN-JEda99/COACH-GHOST-)
 - **Despliegue Frontend:** GitHub Pages
@@ -274,5 +273,5 @@ Accesible vía botón en Navbar o mediante la ruta `/admin`.
 ---
 
 *Firmado y validado:*  
-**Jostin Daza & Angel Cruz**  
+**Jostin Daza**  
 Bogotá D.C. — 11 de Septiembre de 2026

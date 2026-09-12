@@ -15,7 +15,7 @@
     "express",
     "mongodb"
   ],
-  "author": "Jostin Daza & Angel Cruz",
+  "author": "Jostin Daza",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
