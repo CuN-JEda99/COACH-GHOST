@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "cli_1789173769455_614",
+    "nombre": "Carlos Andr�s Beltr�n",
+    "edad": 18,
+    "barrio": "Suba",
+    "posicion": "Delantero",
+    "whatsapp": "3101234567",
+    "plan": "Plan Jugador",
+    "estado": "Activo",
+    "fechaRegistro": "2026-09-12T00:42:49.455Z"
+  },
+  {
+    "_id": "cli_1789173699874_540",
+    "nombre": "Santiago Gómez Rodríguez",
+    "edad": 17,
+    "barrio": "Suba",
+    "posicion": "Delantero",
+    "whatsapp": "3109876543",
+    "plan": "Plan Jugador",
+    "estado": "Activo",
+    "fechaRegistro": "2026-09-09T00:41:38.188Z"
+  },
+  {
+    "_id": "cli_1789173699874_411",
+    "nombre": "Mateo Hernández Ruiz",
+    "edad": 19,
+    "barrio": "Kennedy",
+    "posicion": "Medio",
+    "whatsapp": "3201234567",
+    "plan": "Plan Escuela",
+    "estado": "Activo",
+    "fechaRegistro": "2026-09-10T00:41:38.188Z"
+  },
+  {
+    "_id": "cli_1789173699874_323",
+    "nombre": "Nicolás Peña Silva",
+    "edad": 16,
+    "barrio": "Engativá",
+    "posicion": "Defensa",
+    "whatsapp": "3156789012",
+    "plan": "Plan Familiar",
+    "estado": "Activo",
+    "fechaRegistro": "2026-09-11T00:41:38.188Z"
+  },
+  {
+    "_id": "cli_1789173699874_62",
+    "nombre": "David Leonardo Castro",
+    "edad": 21,
+    "barrio": "Chapinero",
+    "posicion": "Arquero",
+    "whatsapp": "3187654321",
+    "plan": "Plan Jugador",
+    "estado": "Activo",
+    "fechaRegistro": "2026-09-11T12:41:38.188Z"
+  },
+  {
+    "_id": "cli_1789173699874_4",
+    "nombre": "Sebastián Mora Morales",
+    "edad": 18,
+    "barrio": "Suba",
+    "posicion": "Delantero",
+    "whatsapp": "3143210987",
+    "plan": "Plan Escuela",
+    "estado": "Inactivo",
+    "fechaRegistro": "2026-09-11T20:41:38.188Z"
+  }
+]
