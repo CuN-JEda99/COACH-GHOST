@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COACH GHOST | Entrenador Fantasma con IA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #000000, #1a1a1a);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #00FF88, #00D4FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: #b3b3b3;
+            margin-bottom: 2rem;
+        }
+
+        .description {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #ffffff;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: #00FF88;
+            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.2);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #00FF88;
+        }
+
+        .feature-text {
+            color: #b3b3b3;
+            font-size: 0.95rem;
+        }
+
+        .back-button {
+            margin-top: 3rem;
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #00FF88, #00D4FF);
+            color: #000000;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 255, 136, 0.3);
+        }
+
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .tech-badge {
+            background: rgba(0, 255, 136, 0.1);
+            color: #00FF88;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>COACH GHOST</h1>
+        <p class="subtitle">Entrenador Fantasma con Inteligencia Artificial</p>
+        
+        <p class="description">
+            COACH GHOST es una innovadora aplicación web que utiliza inteligencia artificial para actuar como entrenador fantasma 
+            para futbolistas y escuelas en Bogotá. Proporciona análisis en tiempo real, seguimiento de progreso y 
+            recomendaciones personalizadas para mejorar el rendimiento deportivo.
+        </p>
+
+        <div class="tech-stack">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Inteligencia Artificial</span>
+            <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">Express</span>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🤖</div>
+                <h3 class="feature-title">IA Avanzada</h3>
+                <p class="feature-text">Algoritmos de machine learning para análisis de rendimiento y predicciones.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3 class="feature-title">Análisis en Tiempo Real</h3>
+                <p class="feature-text">Monitoreo continuo del progreso con métricas detalladas y reportes.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3 class="feature-title">Personalización</h3>
+                <p class="feature-text">Planes de entrenamiento adaptados a las necesidades de cada jugador.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3 class="feature-title">Multiplataforma</h3>
+                <p class="feature-text">Accesible desde cualquier dispositivo con interfaz responsiva.</p>
+            </div>
+        </div>
+
+        <a href="../index.html" class="back-button">← Volver al Portafolio</a>
+    </div>
+</body>
+</html>

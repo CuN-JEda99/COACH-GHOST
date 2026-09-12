@@ -1,15 +1,215 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=./docs/" />
-    <title>COACH GHOST | Redireccionando...</title>
-    <script>
-      window.location.href = "./docs/";
-    </script>
-  </head>
-  <body style="background:#000; color:#fff; font-family:sans-serif; text-align:center; padding-top:20vh;">
-    <p>Cargando COACH GHOST...</p>
-    <p><a href="./docs/" style="color:#00FF88;">Haz clic aquí si no redirige automáticamente</a></p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jostin Esneyder | Portafolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header con Nav -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Jostin Esneyder</h1>
+            </div>
+            <button class="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi">
+            <div class="container">
+                <h2>Sobre Mí</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hola, soy Jostin Esneyder. Soy un desarrollador apasionado por crear soluciones digitales innovadoras. Me especializo en desarrollo web y tengo experiencia en diversas tecnologías.</p>
+                        <p>Me encanta aprender nuevas tecnologías y aplicarlas en proyectos desafiantes. Mi objetivo es crear experiencias web que sean funcionales, atractivas y fáciles de usar.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="./jostin.jpg" alt="Jostin Esneyder" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades con barras de progreso -->
+        <section id="habilidades">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="90%"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85%"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">React</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="80%"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="75%"></div>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="70%"></div>
+                        </div>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Git/GitHub</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85%"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos con cards interactivas -->
+        <section id="proyectos">
+            <div class="container">
+                <h2>Proyectos</h2>
+                <div class="projects-grid">
+                    <a href="./coach-ghost/index.html" class="project-card" target="_blank">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <span>COACH GHOST</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>COACH GHOST</h3>
+                            <p>Entrenador fantasma con inteligencia artificial para futbolistas y escuelas en Bogotá. Aplicación web con React, Node.js y backend.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>IA</span>
+                            </div>
+                            <button class="project-button">Ver Proyecto</button>
+                        </div>
+                    </a>
+                    <a href="./portafolio-demo/index.html" class="project-card" target="_blank">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <span>Portafolio</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Portafolio Personal</h3>
+                            <p>Portafolio web responsivo con HTML, CSS y JavaScript puro. Incluye animaciones, validación de formularios y diseño moderno.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <button class="project-button">Ver Proyecto</button>
+                        </div>
+                    </a>
+                    <a href="./ecommerce-demo/index.html" class="project-card" target="_blank">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <span>E-commerce</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Tienda Online</h3>
+                            <p>Plataforma de e-commerce con carrito de compras, pasarela de pagos y panel de administración. Diseño responsivo y funcional.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <button class="project-button">Ver Proyecto</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto con formulario -->
+        <section id="contacto">
+            <div class="container">
+                <h2>Contacto</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Conectemos</h3>
+                        <p>¿Tienes un proyecto en mente? ¡Me encantaría escuchar de ti! Completa el formulario y te responderé lo antes posible.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="icon">📧</span>
+                                <span>jostin.esneyder@email.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="icon">📍</span>
+                                <span>Bogotá, Colombia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jostin Esneyder. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
